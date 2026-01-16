@@ -16,6 +16,8 @@ The goal is to avoid one-off apps and instead build reusable, maintainable inter
 
 ## Repository structure
 
+```text
+.
 ├── apps/
 │ ├── api/ # NestJS backend (TypeScript)
 │ └── web/ # Angular frontend (CSS)
