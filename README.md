@@ -25,7 +25,7 @@ The goal is to avoid one-off apps and instead build reusable, maintainable inter
 ├── docker-compose.yml
 ├── package.json
 └── tsconfig.base.json
-```
+
 
 ---
 
