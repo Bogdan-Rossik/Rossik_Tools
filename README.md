@@ -95,6 +95,9 @@ delete feature branch
 ---
 
 ## Local development
+npm install
+npm run dev:api
+npm run dev:web
 
 ### Prerequisites
 - Node.js (LTS recommended)
