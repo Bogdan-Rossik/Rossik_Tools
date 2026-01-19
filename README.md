@@ -96,12 +96,7 @@ delete feature branch
 
 ---
 
-## Local development
-npm install
-npm run dev:api
-npm run dev:web
-
-### Prerequisites
+## Prerequisites
 - Node.js (LTS recommended)
 - npm
 - Docker Desktop (optional, for containers)
@@ -109,3 +104,9 @@ npm run dev:web
 ### Install dependencies
 ```bash
 npm install
+```
+
+### Local development
+```bash
+npm run dev:api
+npm run dev:web
