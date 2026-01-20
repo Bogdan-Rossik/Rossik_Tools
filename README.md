@@ -77,19 +77,19 @@ The goal is to avoid one-off apps and instead build reusable, maintainable inter
 - `git pull`
 - `git checkout -b feat/feature-name`
 
-# Edit files...
+## Edit files...
 - `git add .`
 - `git commit -m "test: verify PR flow"`
 - OR use this: ![commit thingy in vsc](image.png)
 
-# When feature is done
+## When feature is done
 - `git push -u origin feat/feature-name`
 
-# On Github - create pull request
+## On Github - create pull request
 - base = development
 - compare = feature branch
 
-# After development is merged
+## After development is merged
 - create another pull request into main
 - review - with admin account
 - merge
