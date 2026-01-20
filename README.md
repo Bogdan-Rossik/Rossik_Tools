@@ -73,26 +73,28 @@ The goal is to avoid one-off apps and instead build reusable, maintainable inter
 6. Delete feature branch after merge
 
 # new feature:
-git checkout development
-git pull
-git checkout -b feat/feature-name
+- `git checkout development`
+- `git pull`
+- `git checkout -b feat/feature-name`
 
 # edit files...
-git add .
-git commit -m "test: verify PR flow"
+- `git add .`
+- `git commit -m "test: verify PR flow"`
+- OR use this: ![commit thingy in vsc](image.png)
 
 # when feature is done
-git push -u origin feat/test-flow
+- `git push -u origin feat/feature-name`
 
-# open Github - create pull request
-base = development
-compare = feature branch
+# on Github - create pull request
+- base = development
+- compare = feature branch
 
 # after development is commited
-create another pull request into main
-review
-merge
-delete feature branch
+- create another pull request into main
+- review - with admin account
+- merge
+- delete feature branch on git
+- (optional)delete feature branch locally with `git branch -d feat/feature-name`
 
 ---
 
